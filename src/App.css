@@ -1,0 +1,22 @@
+:root{
+  margin: 2%;
+}
+
+.navBar{
+  position: fixed;
+  background-color: aqua;
+  border-radius: 8px;
+  width: 20%;
+  height: 70%;
+  border: 2px solid black;
+}
+
+.profS{
+  position: fixed;
+  background-color: aqua;
+  bottom: 2%;
+  border-radius: 8px;
+  width: 20%;
+  height: 20%;
+  border: 2px solid black;
+}
