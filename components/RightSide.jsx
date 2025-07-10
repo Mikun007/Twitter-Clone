@@ -1,11 +1,11 @@
-const ProfileS = () => {
+const RightSide = () => {
     return ( 
         <>
-            <div className="profS">
+            <div id="RightSide">
                 
             </div>
         </>
      );
 }
  
-export default ProfileS;
+export default RightSide;
