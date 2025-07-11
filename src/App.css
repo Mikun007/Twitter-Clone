@@ -8,7 +8,7 @@
   height: 100%;
   padding: 0.5% 1%;
   gap: 20px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 #home > div {
@@ -30,16 +30,33 @@ nav{
   flex-direction: column;
   width: 18%;
   background-color: blanchedalmond;
-  padding: 0.5% 1%;
+  /* padding: 0.5% 1%; */
+  /* position: relative; */
 
 }
 
-nav > * {
+.logout{
+ margin-top: 8%;
+  
+}
 
+.upperNav > *{
+  background-color: beige;
+  margin: 2px;
+  text-decoration: none;
+  text-align: center;
+  padding: 6.5% 5%;
+  border-radius: 24px;
+}
+
+nav > * {
   background-color: aqua;
   margin: 2px;
   text-decoration: none;
   text-align: center;
-  padding: 5%;
-  border-radius: 8px;
+  padding: 6.5% 5%;
+  border-radius: 24px;
+}
+.upperNav{
+  padding: 0;
 }
