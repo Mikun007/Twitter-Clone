@@ -8,14 +8,16 @@ function App() {
 
   return (
     <Router>
-      <div style={{ display: "flex", height: "100vh" }}>
+      <div style={{ display: "flex", height: "100vh", flex: 1 , gap: "20px"}}>
         <Nav />
         
-        <div className='displaySide' style={{ flex: 1, overflowY: "scroll", padding: "20px" }}>
+        <div className='displaySide' style={{ flex: 2}}>
           <Routes>
             <Route path="/" element={<Home />} /> 
           </Routes>
-          
+        </div>
+        <div style={{flex: 1}}>
+          <RightSide />
         </div>
         
       </div>
