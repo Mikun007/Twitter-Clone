@@ -8,7 +8,7 @@ function App() {
 
   return (
     <Router>
-      <div style={{ display: "flex", height: "100vh", flex: 1 , gap: "20px"}}>
+      <div style={{ display: "flex", height: "100vh", flex: 1}}>
         <Nav />
         
         <div className='displaySide' style={{ flex: 2}}>
