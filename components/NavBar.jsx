@@ -5,7 +5,6 @@ import { CiSearch, CiCircleMore } from "react-icons/ci";
 import { IoIosNotifications } from "react-icons/io";
 import { FaMessage, FaRocketchat, FaXTwitter } from "react-icons/fa6";
 import { RiUserCommunityFill } from "react-icons/ri";
-import { GiEgyptianProfile } from "react-icons/gi";
 
 const Nav = () => {
     return ( 
@@ -26,9 +25,10 @@ const Nav = () => {
                     <Link to="/" className="hoverEfectNav"><span className="navIcoAndTxt"><CiCircleMore size={28}/><span className="text">More</span></span></Link>
                 </div>
 
-                <button><span className="text">Post</span></button>
+                <button><span className="text" style={{color: "black"}}>Post</span></button>
+                
                 <div className="navXicon hoverEfectNav" style={{paddingTop: 0}}>
-                    <Link className="logout" to="/" style={{alignSelf: "center"}}><div style={{flex: 1}}><img src="../public/profile.svg" alt="img" style={{width: "60%", borderRadius: "50%"}}/></div><div style={{flex: 2}}>Mikun Das</div> <div style={{flex: 1}}><CiCircleMore size={24}/></div></Link>
+                    <Link className="logout" to="/" style={{alignSelf: "center"}}><div style={{flex: 1}}><img src="profile.svg" alt="img" style={{width: "60%", borderRadius: "50%"}}/></div><div style={{flex: 2}}>Mikun Das</div> <div style={{flex: 1}}><CiCircleMore size={24}/></div></Link>
                 </div>
 
             </nav>
